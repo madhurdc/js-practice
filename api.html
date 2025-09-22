@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            text-align: center;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        #quote {
+            background: rgb(117, 117, 117);
+            color: yellow;
+            padding: 10px;
+            margin: 5px auto;
+            width: fit-content;
+            font-style: italic;
+            font-weight: bold;
+            border-radius: 10px;
+        }
+        #quoteBtn {
+            outline: none;
+            border: none;
+            padding: 5px;
+            background: rgb(0, 0, 79);
+            color: white;
+            transition: transform 0.2s;
+            cursor: pointer;
+        }
+        #quoteBtn:hover {
+            transform: scale(1.1);
+        }
+        div {
+            margin: 20px auto;
+            width: fit-content;
+        }
+    </style>
+</head>
+<body>
+    <h1>Random Motivational Quotes</h1>
+    <h4>Click on the button to get a random quote. It might just help you.</h4>
+    <p id="quote"></p>
+    <div>
+        <button id="quoteBtn">New Quote</button>
+    </div>
+    <script src="api.js"></script>
+</body>
+</html>
