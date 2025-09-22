@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Photos</title>
+    <style>
+        * {
+            text-align: center;
+        }
+        img {
+            width: 20%;
+            height: 50%;
+            margin: 10px auto;
+        }
+        div {
+            margin: 10px auto;
+        }
+        #cat-fact {
+            background: rgb(0, 0, 79);
+            color: white;
+            width: 50%;
+            padding: 10px;
+        }
+        button {
+            outline: none;
+            border: none;
+            padding: 5px;
+            background: rgb(79, 0, 0);
+            color: white;
+            transition: transform 0.2s;
+            cursor: pointer;
+        }
+        button:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <h1>Cat Photos & Facts</h1>
+    <div id="cat-img"></div>
+    <button id="new-img">New Image</button>
+    <div id="cat-fact"></div>
+    <button id="new-fact">New Fact</button>
+    <script src="script.js"></script>
+</body>
+</html>
