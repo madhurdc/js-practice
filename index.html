@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindrome Checker</title>
+</head>
+<body>
+    <h1>Palindrome Checker</h1>
+    <p>All non-alphanumeric characters are removed (like spaces, %, !, @, #, etc.)</p>
+    <p><b>Example strings to try:</b><br>
+        Palindromes:<br>
+        <ul>
+            <li>0_0 (: /-\ :) 0-0</li>
+            <li>race !)$! (@* $)!@($*)!) car</li>
+            <li>M @ aDA ! M</li>
+            <li>A man, a plan, a canal. Panama</li>
+        </ul>
+        Not Palindromes:<br>
+        <ul>
+            <li>five|\_/|four</li>
+            <li>race 123 @ car</li>
+            <li>not a Palindrome</li>
+        </ul>
+    </p>
+    <label for="text-input">Enter a string: </label>
+    <input id="text-input">
+    <button id="check-btn">Check</button>
+    <div id="result"></div>
+    <script src="script.js"></script>
+</body>
+</html>
